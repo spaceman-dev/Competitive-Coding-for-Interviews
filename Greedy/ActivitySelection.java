@@ -1,3 +1,5 @@
+package Greedy;
+
 /*package whatever //do not write package name here */
 
 import java.util.*;
