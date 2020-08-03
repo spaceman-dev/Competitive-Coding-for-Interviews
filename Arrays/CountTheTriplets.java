@@ -1,7 +1,5 @@
 package Arrays;
 import java.util.*;
-import java.lang.*;
-import java.io.*;
 import java.util.Arrays;
 
 class CountTheTriplets
@@ -44,5 +42,6 @@ class CountTheTriplets
             else
                 System.out.println(count);
         }
+        sc.close();
 	}
 }

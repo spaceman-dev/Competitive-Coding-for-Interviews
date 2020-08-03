@@ -1,7 +1,6 @@
 package Dynamic_Programming;
-import java.io.*;
 import java.util.*;
-import java.lang.*;
+
 class LongestCommonSubstring
 {
     public static void main (String[] args)
@@ -37,5 +36,6 @@ class LongestCommonSubstring
             }
             System.out.println(max);
         }
+        sc.close();
     }
 }

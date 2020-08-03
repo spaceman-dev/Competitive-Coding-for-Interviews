@@ -1,7 +1,5 @@
 package Dynamic_Programming;
-import java.io.*;
 import java.util.*;
-import java.lang.*;
 class EditDistance
 {
     public static void main(String args[])
@@ -20,6 +18,7 @@ class EditDistance
             //System.out.println("Enter  the second string: ");
             String s2 = sc.next();
             System.out.println(editDistance(s1, s2, p, q));
+            sc.close();
         }
     }
     public static int editDistance(String s1, String s2, int p, int q)

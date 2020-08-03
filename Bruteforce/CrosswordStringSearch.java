@@ -1,7 +1,6 @@
 package Bruteforce;
-import java.io.*;
 import java.util.*;
-import java.lang.*;
+
 class CrosswordStringSearch
 {
     public static void main(String args[])
@@ -110,5 +109,6 @@ class CrosswordStringSearch
             }
         }
         System.out.println("Total Number of Occurrences of the word '" + s + "' in the crossword is: " + count);
+        sc.close();
     }
 }

@@ -1,8 +1,7 @@
 /*package whatever //do not write package name here */
 package Dynamic_Programming;
 import java.util.*;
-import java.lang.*;
-import java.io.*;
+
 class EggDroppingPuzzle
 { 
 // Find sum of binomial coefficients xCi 
@@ -49,5 +48,6 @@ public static void main(String args[])
         int k = sc.nextInt();
         System.out.println(minTrials(n, k));
     }
+    sc.close();
 } 
 } 

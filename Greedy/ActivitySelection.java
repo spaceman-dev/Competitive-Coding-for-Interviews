@@ -3,8 +3,6 @@ package Greedy;
 /*package whatever //do not write package name here */
 
 import java.util.*;
-import java.lang.*;
-import java.io.*;
 
 class ActivitySelection
 {
@@ -29,19 +27,15 @@ class ActivitySelection
             Arrays.sort(end);
             int in = 1;
             int max = 1;
-            int time = start[0];
             int i = 1;
             int j = 0;
             while(i < n && j < n)
             {
-                if(start[i] <= end[i])
+                if(start[i] <= end[j])
                 {
                     in++;
                     if(in > max)
-                    {
                         max = in;
-                        time = start[i];
-                    }
                     i++;
                 }
                 else
@@ -52,5 +46,6 @@ class ActivitySelection
             }
             System.out.println(max);
         }
+        sc.close();
 	}
 }

@@ -1,7 +1,6 @@
 package Greedy;
-import java.io.*;
 import java.util.*;
-import java.lang.*;
+
 class MaximizeToys
 {
     public static void main(String[] args) 
@@ -33,5 +32,6 @@ class MaximizeToys
             }
             System.out.println(count);
         }
+        sc.close();
     }
 }

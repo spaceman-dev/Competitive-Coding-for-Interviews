@@ -1,6 +1,4 @@
 package Backtracking;
-import java.io.*;
-import java.lang.*;
 import java.util.*;
 
 class NQueensProblem
@@ -76,5 +74,6 @@ class NQueensProblem
 		System.out.println("Enter N: ");
 		N = sc.nextInt();
 		solveNQ();
+		sc.close();
 	}
 }

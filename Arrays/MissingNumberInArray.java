@@ -1,8 +1,6 @@
 /*package whatever //do not write package name here */
 package Arrays;
 import java.util.*;
-import java.lang.*;
-import java.io.*;
 
 class MissingNumberInArray 
 {
@@ -26,5 +24,6 @@ class MissingNumberInArray
             int totalsum = n * (n + 1) / 2;
             System.out.println(totalsum-sum);
         }
+        sc.close();
 	}
 }

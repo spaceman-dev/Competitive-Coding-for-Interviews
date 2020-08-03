@@ -1,8 +1,6 @@
 /*package whatever //do not write package name here */
 package Arrays;
 import java.util.*;
-import java.lang.*;
-import java.io.*;
 
 class KadanesAlgorithm 
 {
@@ -28,5 +26,6 @@ class KadanesAlgorithm
             }
             System.out.println(max);
         }
+        sc.close();
 	}
 }

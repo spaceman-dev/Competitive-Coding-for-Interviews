@@ -1,7 +1,6 @@
 package Dynamic_Programming;
-import java.io.*;
 import java.util.*;
-import java.lang.*;
+
 class LongestIncreasingSubsequence
 {
     public static void main(String args[])
@@ -33,5 +32,6 @@ class LongestIncreasingSubsequence
                 max = Math.max(dp[i], max);
             System.out.println(max);
         }
+        sc.close();
     }
 }

@@ -1,8 +1,6 @@
 /*package whatever //do not write package name here */
 package Arrays;
 import java.util.*;
-import java.lang.*;
-import java.io.*;
 
 class NumberOfPairs
 {
@@ -36,5 +34,6 @@ class NumberOfPairs
             }
             System.out.println(count);
         }
+        sc.close();
 	}
 }

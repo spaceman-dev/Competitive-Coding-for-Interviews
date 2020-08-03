@@ -1,7 +1,6 @@
 package Dynamic_Programming;
-import java.io.*;
 import java.util.*;
-import java.lang.*;
+
 class LongestCommonSubsequence
 {
     public static void main (String[] args)
@@ -42,5 +41,6 @@ class LongestCommonSubsequence
             int result = dp[n][m];
             System.out.println(result);
         }
+        sc.close();
     }
 }

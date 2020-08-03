@@ -1,8 +1,6 @@
 /*package whatever //do not write package name here */
 package Arrays;
 import java.util.*;
-import java.lang.*;
-import java.io.*;
 
 class SubarrayWithGivenSum
 {
@@ -44,5 +42,6 @@ class SubarrayWithGivenSum
 			if(flag == 0)
 			    System.out.println("-1");			
 		}
+		sc.close();
 	}
 }
