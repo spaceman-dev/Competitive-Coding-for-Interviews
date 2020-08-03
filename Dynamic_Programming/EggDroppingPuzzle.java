@@ -1,4 +1,5 @@
 /*package whatever //do not write package name here */
+package Dynamic_Programming;
 import java.util.*;
 import java.lang.*;
 import java.io.*;
