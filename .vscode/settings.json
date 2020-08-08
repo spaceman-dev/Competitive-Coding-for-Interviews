@@ -7,6 +7,7 @@
     },
     "files.associations": {
         "*.tcc": "cpp",
-        "list": "cpp"
+        "list": "cpp",
+        "deque": "cpp"
     }
 }
