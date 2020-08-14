@@ -11,7 +11,7 @@ int countSetBits(int x)
         count++; 
     } 
     return count; 
-} 
+}
 int main()
 {
 	//code
