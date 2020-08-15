@@ -26,7 +26,7 @@ int main()
 	            res[i] = s.top();
 	        s.push(arr[i]);
 	    }
-	    for(ll i = 0 ; i < n ; i++)
+	    for(ll i =  0 ; i < n ; i++)
 	        cout << res[i] << " ";
 	    cout << endl;
 	}
