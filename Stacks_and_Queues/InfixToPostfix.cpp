@@ -24,25 +24,28 @@ class Solution
                 res += it;
             else if(it == '(')
                 st.push(it);
-            else if(it == ')')
-            {
-                while(st.top() != '(')
-                {
-                    res += st.top();
-                    st.pop();
-                }
-                st.pop();
-            }
-            else if(st.empty() || mp[it] > mp[st.top()])
-                st.push(it);
             else
             {
-                while(!st.empty() && mp[it] <= mp[st.top()])
+                if(it == ')')
                 {
-                    res += st.top();
+                    while(st.top() != '(')
+                    {
+                        res += st.top();
+                        st.pop();
+                    }
                     st.pop();
                 }
-                st.push(it);
+                else if(st.empty() || mp[it] > mp[st.top()])
+                    st.push(it);
+                else
+                {
+                    while((!st.empty() && mp[it] <= mp[st.top()]))
+                    {
+                        res += st.top();
+                        st.pop();
+                    }
+                    st.push(it);
+                }
             }
         }
         while(!st.empty())
